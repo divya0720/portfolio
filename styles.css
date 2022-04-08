@@ -1,0 +1,12 @@
+.card {
+    background-color: rgb(91, 233, 233);
+    padding: 16px;
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 30%);
+    transition: 0.3s;
+}
+body {
+    max-width: 500px; 
+    margin: auto; 
+    background: #bce0e4;
+    padding: 16px;
+}
