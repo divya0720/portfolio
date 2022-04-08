@@ -1,27 +1,80 @@
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css"></link>
+        <style>
+            .card {
+                background-color: rgb(91, 233, 233);
+                padding: 16px;
+                box-shadow: 0 10px 15px 0 rgb(0 0 0 / 30%);
+                transition: 0.3s;
+            }
+            body {
+                max-width: 500px; 
+                margin: auto; 
+                background: #bce0e4;
+                padding: 16px;
+            }
+            
+            img {
+                border-radius:50%;
+                display: block;
+                max-width: 400;
+                margin-top: 16px;
+            }
+            .profile-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding-bottom: 24px;
+            }
+            #profile-pic {
+                border-radius: 50%; 
+                margin-top: 16px; 
+                width: 150px;
+            }
+            #header-desc {
+                text-align: center;
+                margin: auto;
+            }
+         
+            hr {
+                border-style: none;
+                border-top: dotted 2px;
+                border-width: 4px;
+                width: 10%;
+            }
+            .profile-details {
+                display: flex;
+                justify-content: left;
+                flex-direction: row;
+            }
+            .hobbies {
+                margin-right: 16px;
+            }          
+        </style>
     </head>
     <body>
-        <div class="header">
-            <h2>Portfolio</h2>
-            <div class="header-menu">
-                <a href="index.html" class="profile">Home</a>
-                <a href="about.html" class="profile">About me</a>
-                <a href="https://dribbble.com/divya0720" class="profile">Dribbble</a>
-            </div>
-        </div> 
         <div class="card">
-            <div class="h4">
-                <div class="text">
-                    <li>
-                        <a> Mobile Number: 8881646493</a>
-                    </li>
-                    <li>
-                        <a> Email Address: tewaridivya1992@gmail.com </a>                            
-                    </li>
+            <div class="profile-header">
+            <img src="C:\Users\tewar\Downloads\Divya image.jpg"width="200" height="200">
+                <div id="header-desc">
+                <h2>Divya Tewari</h2>
+                <h3>Graphic Designer@upnotes</h3>
                 </div>
+            </div>
+            <hr>
+            <h4>About</h4>
+                <p>I am currently working in Upnotes.io and previously worked with Yazaki India Private Limited</p>
+                <ul>
+                    <li>
+                        <a href="Hobbies.html">Hobbies</a>                        
+                    </li>
+                    <li>
+                        <a href="Online Profile.html"> Online Profile</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </body>
 </html>
+      
+    

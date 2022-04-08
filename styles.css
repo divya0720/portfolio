@@ -8,37 +8,36 @@
     color: rgb(8, 1, 1);
     font-size: 15px;
 }
-    .profile {
-        padding-left: 50;
-        font-size: 17;
+.profile {
+    padding-left: 50;
+    font-size: 17;
 }
-    .header-menu {
-        margin-top: auto;
-        margin-bottom: auto; 
+.header-menu {
+    margin-top: auto;
+    margin-bottom: auto; 
 }
 img {                   
-        max-width: 300;
-        margin-top: 16px;
-        margin-left: 16px;
-        padding: 5px;
+    max-width: 300;
+    margin-top: 16px;
+    margin-left: 16px;
+    padding: 5px;
 }
-    .h4 {
+.h4 {
     color: rgb(1, 1, 19);
 }
-    .card {
-    background-color: rgb(225, 233, 233);
-    padding: 5px;
-    width: 2000px;
-    height: 100px;
-}
-    .text {
+.text {
     text-align: center;
     padding: 35px;
 }
 .card {
-    background-color: rgb(91, 233, 233);
+    background-color: rgb(33 150 243 / 10%);
     padding: 16px;
     box-shadow: 0 10px 15px 0 rgb(0 0 0 / 30%);
     transition: 0.3s;
+}
+.container {
+    max-width: 500px; 
+    margin: auto; 
+    padding: 16px;
 }
 
